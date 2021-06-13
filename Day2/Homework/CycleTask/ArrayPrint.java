@@ -14,8 +14,7 @@ public class ArrayPrint {
 
 
 */
-
-        BubbleSort.SortBubble();
+        ArrayExponent.ExponentIt();
 
 
 

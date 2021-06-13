@@ -4,9 +4,9 @@ public class Bottle {
 
     public float bottleVolume_S = 0.5f;
     public float bottleVolume_M = 1f;
-    public float bottleVolume_L = 1.5f;
+    public float bottleVolume_L = 1.5f;}
 
-public Bottle(float bottleVolume_L,float bottleVolume_M, float bottleVolume_S);
+/*public Bottle(float bottleVolume_L,float bottleVolume_M, float bottleVolume_S);
     public float getBottleVolume_S() {
         return bottleVolume_S;
     }
@@ -41,6 +41,6 @@ public Bottle(float bottleVolume_L,float bottleVolume_M, float bottleVolume_S);
 
     }
 }
-
+*/
 
 
