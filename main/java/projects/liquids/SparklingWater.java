@@ -1,16 +1,34 @@
-package Day2.Homework.BubbleTask;
+package main.java.projects.liquids;
+
+import main.java.projects.components.Bubble;
 
 public class SparklingWater extends Water {
 
-    public void pump (){
+    private boolean isOpened;
+    private Bubble[] bubbles;
 
-
-
-
+    public void SparklingWater(SparklingWater .) {
+        this.setOpened();
 
 
     }
-    public void degas() {
+
+    public void setOpened(boolean opened) {
+        isOpened = opened;
+    }
+
+    private void isOpened() {
+        if (isOpened = true) {
+            SparklingWater.degas();
+        }
+    }
+
+    public void pump() {
+
+
+    }
+
+    public static void degas() {
 
 
     }

@@ -1,32 +1,42 @@
-package Day2.Homework.BubbleTask;
+package main.java.projects.liquids;
 
 public abstract class Water {
 
-    String color;
-    String smell;
-    int temperature;
-    String transparency;
+    private String color = "no";
+    private String smell = "no";
+    private int temperature = 0;
+    private String transparency = "transparent";
 
-    public Water () {
-        this.color = color;
-        this.temperature = temperature;
-        this.transparency = transparency;
-        this.smell = smell;
+    public String getColor() {
+        return color;
     }
 
     public void setColor(String color) {
         this.color = color;
     }
 
+    public String getSmell() {
+        return smell;
+    }
+
     public void setSmell(String smell) {
         this.smell = smell;
+    }
+
+    public int getTemperature() {
+        return temperature;
     }
 
     public void setTemperature(int temperature) {
         this.temperature = temperature;
     }
 
+    public String getTransparency() {
+        return transparency;
+    }
+
     public void setTransparency(String transparency) {
         this.transparency = transparency;
     }
 }
+
