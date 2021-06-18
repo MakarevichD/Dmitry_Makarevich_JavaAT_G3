@@ -1,10 +1,10 @@
-package Day2.Homework.CycleTask;
+package main.java.tasks.homework_week1;
 
 import java.util.Random;
 
 public class ArrayExponent {
 
-    public static void ExponentIt() {
+    public void ExponentIt() {
 
         int[] array3 = new int[3];
         Random random = new Random();

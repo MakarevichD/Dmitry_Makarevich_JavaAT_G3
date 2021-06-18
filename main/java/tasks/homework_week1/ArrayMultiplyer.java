@@ -1,10 +1,10 @@
-package Day2.Homework.CycleTask;
+package main.java.tasks.homework_week1;
 
 import java.util.Random;
 
 public class ArrayMultiplyer {
 
-    public static void multiplyIt (){
+    public void multiplyIt (){
 
         int[] array3 = new int[9];
         Random random = new Random();

@@ -1,10 +1,10 @@
-package Day2.Homework.CycleTask;
+package main.java.tasks.homework_week1;
 
 import java.util.Random;
 
 public class ArraysTask {
 
-    public static void testArray() {
+    public void testArray() {
 
         int[] arrayAlpha = new int[7];
         Random random = new Random();

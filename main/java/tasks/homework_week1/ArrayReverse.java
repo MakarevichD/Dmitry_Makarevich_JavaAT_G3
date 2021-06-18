@@ -1,10 +1,10 @@
-package Day2.Homework.CycleTask;
+package main.java.tasks.homework_week1;
 
 import java.util.Random;
 
 public class ArrayReverse {
 
-    public static void ArrayReverso() {
+    public void ArrayReverso() {
 
         int[] array_4 = new int[5];
         Random random = new Random();

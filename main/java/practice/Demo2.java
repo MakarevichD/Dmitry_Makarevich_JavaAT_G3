@@ -1,4 +1,4 @@
-package com.Day2;
+package main;
 
 import java.util.Random;
 

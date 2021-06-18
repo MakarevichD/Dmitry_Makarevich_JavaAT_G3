@@ -1,10 +1,10 @@
-package Day2.Homework.CycleTask;
+package main.java.tasks.homework_week1;
 
 import java.util.Random;
 
 public class MinSort {
 
-    public static void SortThis() {
+    public void SortThis() {
 
         int[] arraySort = new int[5];
         Random random = new Random();

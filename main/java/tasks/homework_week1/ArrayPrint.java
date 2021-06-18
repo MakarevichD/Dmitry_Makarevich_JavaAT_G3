@@ -1,4 +1,4 @@
-package Day2.Homework.CycleTask;
+package main.java.tasks.homework_week1;
 
 public class ArrayPrint {
 
@@ -14,7 +14,9 @@ public class ArrayPrint {
 
 
 */
-        ArrayExponent.ExponentIt();
+        //ArrayExponent.ExponentIt();
+
+
 
 
 

@@ -1,10 +1,10 @@
-package Day2.Homework.CycleTask;
+package main.java.tasks.homework_week1;
 
 import java.util.Random;
 
 public class BubbleSort {
 
-    public static void SortBubble() {
+    public void SortBubble() {
 
         int[] arrayBubble = new int[9];
         Random random = new Random();
