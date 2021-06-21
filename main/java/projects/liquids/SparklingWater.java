@@ -7,8 +7,8 @@ public class SparklingWater extends Water {
     private boolean isOpened;
     private Bubble[] bubbles;
 
-    public void SparklingWater(SparklingWater .) {
-        this.setOpened();
+    public void SparklingWater() {
+        this.setOpened(true);
 
 
     }
