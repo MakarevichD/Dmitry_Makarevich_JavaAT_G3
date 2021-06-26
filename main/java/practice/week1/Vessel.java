@@ -1,4 +1,4 @@
-package main.java.practice;
+package main.java.practice.week1;
 
 public abstract class Vessel {
 

@@ -14,5 +14,9 @@ public class BottlingWater {
         bottleM.warm(4);
         bottleL.warm(22);
 
+        bottleS.open();
+        bottleM.open();
+        bottleL.open();
+
     }
 }

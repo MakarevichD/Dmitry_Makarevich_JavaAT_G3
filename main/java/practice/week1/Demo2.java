@@ -1,4 +1,4 @@
-package main;
+package main.java.practice.week1;
 
 import java.util.Random;
 
