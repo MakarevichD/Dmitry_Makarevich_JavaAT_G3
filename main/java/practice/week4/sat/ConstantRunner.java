@@ -1,6 +1,4 @@
-package main.java.practice.week4;
-
-import java.awt.*;
+package main.java.practice.week4.sat;
 
 public class ConstantRunner {
 

@@ -1,4 +1,4 @@
-package main.java.practice.week4;
+package main.java.practice.week4.sat;
 
 public class ConstantContainer {
 

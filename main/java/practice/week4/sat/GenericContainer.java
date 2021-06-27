@@ -1,21 +1,21 @@
-package main.java.practice.week4;
+package main.java.practice.week4.sat;
 
-public class ObjectContainer {
+public class GenericContainer <T> {
 
-    private Object[] objectsPlacement = new Object[10];
+    private T [] objectsPlacement = (T[])new Object[10];
     int counter;
 
 
-    public void add(Object o) {
+    public void add(T o) {
 
         if (counter < objectsPlacement.length) {
             objectsPlacement[counter++] = o;
         }
     }
 
-    public Object removeLast() {
+    public T removeLast() {
 
-        Object result = null;
+        T result = null;
 
         if (counter > 0) {
             result = objectsPlacement[counter - 1];
@@ -32,10 +32,6 @@ public class ObjectContainer {
 
 
 }
-
-
-
-
 
 
 
