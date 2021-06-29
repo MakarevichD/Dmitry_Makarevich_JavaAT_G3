@@ -13,22 +13,25 @@ public class SparklingWater extends Water {
 
     }
 
-    public void setOpened(boolean opened) {
-        isOpened = opened;
+    public void setOpened(boolean isOpened) {
+        this.isOpened =true;
+
     }
 
     private void isOpened() {
         if (isOpened = true) {
-            SparklingWater.degas();
+            new SparklingWater().degas();
         }
     }
 
-    public void pump() {
+    public void pump(Bubble[] bubbles) {
 
 
     }
 
-    public static void degas() {
+    private void degas() {
+
+
 
 
     }

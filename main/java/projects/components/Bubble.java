@@ -12,7 +12,7 @@ public class Bubble {
 
     }
 
-    public void bubbleBurst(){
+    public void bubbleBurst() {
 
         System.out.println("C-C-Crump!!");
     }
