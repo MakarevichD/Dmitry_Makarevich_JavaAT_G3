@@ -1,8 +1,11 @@
 package main.java.practice.week3.mathStr;
 
+import main.java.practice.week4.sun.Serializer;
+
+import java.io.Serializable;
 import java.util.Objects;
 
-public class Person {
+public class Person implements Serializable {
 
     private String name;
     private int age;

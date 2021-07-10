@@ -11,12 +11,12 @@ public class CurrentDateNow {
 
     public void ShowTimeDate(){
 
-        String pattern = "dd MMMMM yyyy HH:mm:ss";
+        String pattern = "dd MMMM yyyy HH:mm";
         SimpleDateFormat simpleDateFormat =
                 new SimpleDateFormat(pattern, new Locale("en", "BY"));
 
         String date = simpleDateFormat.format(new Date());
-        System.out.println("Сейчас на дворе:" + date );
+        System.out.println("Сейчас на дворе: " + date );
        // System.out.println(date);
     }
 
