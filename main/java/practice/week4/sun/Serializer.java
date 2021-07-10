@@ -13,11 +13,9 @@ public class Serializer {
 
         FileOutputStream fos = new FileOutputStream("person.tmp");
         ObjectOutputStream oos = new ObjectOutputStream(fos);
-
         oos.writeObject(new Person("vasya", 21, 172, 88));
         oos.close();
 
-        System.out.println();
 
     }
 
@@ -25,10 +23,9 @@ public class Serializer {
 
         FileInputStream fis = new FileInputStream("person.tmp");
         ObjectInputStream ois = new ObjectInputStream(fis);
-
         Person person = (Person) ois.readObject();
-
         ois.close();
+        System.out.println(person);
 
     }
 }
