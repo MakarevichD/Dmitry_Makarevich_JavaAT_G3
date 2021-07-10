@@ -15,6 +15,11 @@ public class Can extends Vessel implements Containable {
     }
 
     @Override
+    public Transformable removeStuff() {
+        return null;
+    }
+
+    @Override
     public boolean isEmpty() {
         return false;
     }

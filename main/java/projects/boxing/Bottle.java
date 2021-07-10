@@ -16,7 +16,6 @@ public class Bottle extends Vessel implements Containable {
         this.water = water;
     }
 
-
     public Bottle(double volume) {
         this.volume = volume;
         Bubble[] bubbles = new Bubble[(int) (volume * 10000)];
@@ -29,8 +28,7 @@ public class Bottle extends Vessel implements Containable {
 
     public void warm(int temperature) {
         System.out.println("Warm up a little bit");
-        SparklingWater water = new SparklingWater();
-        water.setTemperature(temperature);
+        
 
     }
 

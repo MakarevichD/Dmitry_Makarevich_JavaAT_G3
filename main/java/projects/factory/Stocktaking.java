@@ -1,2 +1,4 @@
-package main.java.projects.factory;public class Stocktaking {
+package main.java.projects.factory;
+
+public class Stocktaking {
 }
