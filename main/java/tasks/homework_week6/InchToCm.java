@@ -1,10 +1,6 @@
 package main.java.tasks.homework_week6;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
 import java.util.stream.IntStream;
-import java.util.stream.Stream;
 
 public class InchToCm {
 
@@ -15,7 +11,7 @@ public class InchToCm {
         IntStream.range(n, c)
                 .filter(i -> i % 2 == 0)
                 .peek(i -> System.out.println(i * 2.54 + " cm in inch"))
-                .reduce((s1, s2) -> s1 + s2)
+                .reduce((sum1, sum2) -> sum1 + sum2)
                 .ifPresent(System.out::println);
 
 
