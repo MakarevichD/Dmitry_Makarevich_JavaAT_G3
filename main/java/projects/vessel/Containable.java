@@ -1,6 +1,6 @@
-package main.java.projects.boxing;
+package main.java.projects.vessel;
 
-import main.java.projects.liquids.Transformable;
+import main.java.projects.stuff.Transformable;
 
 public interface Containable {
 

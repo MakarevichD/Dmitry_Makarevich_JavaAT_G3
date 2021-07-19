@@ -1,4 +1,4 @@
-package main.java.projects.liquids;
+package main.java.projects.stuff;
 
 public abstract class Water {
 

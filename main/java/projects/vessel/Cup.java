@@ -1,9 +1,11 @@
-package main.java.projects.boxing;
+package main.java.projects.vessel;
 
-import main.java.projects.liquids.Transformable;
+import main.java.projects.stuff.Transformable;
 import main.java.projects.materials.Material;
+import main.java.projects.vessel.Containable;
+import main.java.projects.vessel.Vessel;
 
-public class Cup extends Vessel implements Containable{
+public class Cup extends Vessel implements Containable {
 
     public Cup(double volume, double diameter, int weight, Material material) {
         super(volume, diameter, weight, material);

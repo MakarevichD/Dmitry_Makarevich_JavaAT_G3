@@ -1,7 +1,9 @@
-package main.java.projects.boxing;
+package main.java.projects.vessel;
 
-import main.java.projects.liquids.Transformable;
+import main.java.projects.stuff.Transformable;
 import main.java.projects.materials.Material;
+import main.java.projects.vessel.Containable;
+import main.java.projects.vessel.Vessel;
 
 public class Can extends Vessel implements Containable {
 

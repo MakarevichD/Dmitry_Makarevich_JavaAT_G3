@@ -1,6 +1,6 @@
-package main.java.projects.factory;
+package main.java.projects.warehouse;
 
-import main.java.projects.boxing.Bottle;
+import main.java.projects.vessel.Bottle;
 
 public class BottlingWater {
 

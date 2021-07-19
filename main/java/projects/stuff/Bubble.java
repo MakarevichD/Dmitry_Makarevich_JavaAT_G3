@@ -1,4 +1,4 @@
-package main.java.projects.components;
+package main.java.projects.stuff;
 
 public class Bubble {
 
@@ -12,9 +12,10 @@ public class Bubble {
 
     }
 
-    public void bubbleBurst() {
+    public void crump() {
 
-        System.out.println("C-C-Crump!!");
+        System.out.println("C-C-Crump!!" + gas);
+
     }
 
     public double getBUBBLE_VOLUME() {
