@@ -13,7 +13,7 @@ public class CurrentDateNow {
 
         String pattern = "dd MMMM yyyy HH:mm";
         SimpleDateFormat simpleDateFormat =
-                new SimpleDateFormat(pattern, new Locale("en", "BY"));
+                new SimpleDateFormat(pattern, new Locale("ru", "BY"));
 
         String date = simpleDateFormat.format(new Date());
         System.out.println("Сейчас на дворе: " + date );
