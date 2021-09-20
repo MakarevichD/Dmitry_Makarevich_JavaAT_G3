@@ -28,5 +28,5 @@ public class VesselBox<T extends Vessel> implements Serializable {
     public List<Containable> getBox() {
         return box;
     }
-    
+
 }

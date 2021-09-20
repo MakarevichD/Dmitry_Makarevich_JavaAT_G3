@@ -21,11 +21,12 @@ public class Noodles {
 
 
         for (String yumiNoodle : noodleCup) {
+            yumiNoodle.replaceAll("a", "o");
 
-            String changeLetter = yumiNoodle.replaceAll("a", "o");
-            noodleCup.add(changeLetter);
+
         }
-        System.out.println();
+        System.out.println(noodleCup);
+
 
     }
 
